@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Signup Form</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+
+<h2>Signup Form</h2>
+
+<!-- Form for user signup -->
+<form id="signupForm">
+    <!-- Email input field -->
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <!-- Span for displaying email validation error/success message -->
+    <span id="emailMessage" class="message"></span><br><br>
+
+    <!-- Password input field -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br>
+    <!-- Span for displaying password validation error/success message -->
+    <span id="passwordMessage" class="message"></span><br><br>
+
+    <!-- Submit button -->
+    <button type="submit">Submit</button>
+</form>
+
+<!-- Link to the external JavaScript file -->
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
